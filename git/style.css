@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    display: inline-block;
+    color: darkblue;
+}
+
+button {
+    background-color: yellow;
+    text-shadow: navy;
+    margin-top: 20px;
+    
+    padding: 10px;
+    color: darkblue
+}
+
+.watch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.time {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: yellow;
+    text-shadow: navy;
+    border: 2px solid black
+
+}
